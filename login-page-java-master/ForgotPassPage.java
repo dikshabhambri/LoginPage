@@ -64,11 +64,11 @@ class ForgotPassPage extends JFrame {
 		titleLabel.setForeground(Color.BLACK);
 		titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 18));
 		titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		titleLabel.setBounds(84, 11, 200, 31);
+		titleLabel.setBounds(83, 11, 200, 31);
 		contentPane.add(titleLabel);
 
 		JLabel unameSignInLabel = new JLabel("Username");
-		unameSignInLabel.setFont(new Font("Tahoma", Font.BOLD, 12));
+		unameSignInLabel.setFont(new Font("Tahoma", Font.BOLD, 13));
 		unameSignInLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		unameSignInLabel.setForeground(Color.BLACK);
 		unameSignInLabel.setBounds(20, 106, 63, 31);
