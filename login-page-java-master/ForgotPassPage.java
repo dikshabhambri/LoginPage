@@ -99,7 +99,7 @@ class ForgotPassPage extends JFrame {
 				String username = usernameo.getText();
 				
 				if (username.equals("")) {
-					errorLabel.setText("Please enter a valid username.");
+					errorLabel.setText("Please enter a valid Username.");
 					errorLabel.setVisible(true);
 					return;
 				}
@@ -116,7 +116,7 @@ class ForgotPassPage extends JFrame {
 				String username = usernameo.getText();
 				
 				if (username.equals("")) {
-					errorLabel.setText("Please enter a valid username.");
+					errorLabel.setText("Please enter a valid Username.");
 					errorLabel.setVisible(true);
 					return;
 				}
@@ -139,7 +139,7 @@ class ForgotPassPage extends JFrame {
 						dispose();
 						new QuestionsPage();
 					} else {
-						errorLabel.setText("Please enter a valid username.");
+						errorLabel.setText("Please enter a valid Username.");
 						errorLabel.setVisible(true);
 					}
 				}
