@@ -58,9 +58,9 @@ public class QuestionsPage extends JFrame {
 		setVisible(true);
 
 	
-		JLabel titleLabel = new JLabel("Security Questions");
+		JLabel titleLabel = new JLabel("Security Question");
 		titleLabel.setForeground(Color.BLACK);
-		titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 18));
+		titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 17));
 		titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		titleLabel.setBounds(84, 11, 200, 31);
 		contentPane.add(titleLabel);
