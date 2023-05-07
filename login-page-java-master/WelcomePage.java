@@ -47,7 +47,7 @@ class WelcomePage extends JFrame {
 		setContentPane(contentPane);
 		
 
-		JLabel titleLabel = new JLabel("Welcome, "+ username);
+		JLabel titleLabel = new JLabel("Welcome!, "+ username);
 		titleLabel.setForeground(Color.BLACK);
 		titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 18));
 		titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
