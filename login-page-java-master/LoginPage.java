@@ -97,7 +97,7 @@ class LoginPage extends JFrame {
 		contentPane.add(lblPassword);
 		
 		passwordo = new JPasswordField();
-		passwordo.setBounds(105, 149, 200, 28);
+		passwordo.setBounds(105, 149, 200, 27);
 		contentPane.add(passwordo);
 		
 		JButton btnForgotPassword = new JButton("Forgot Password");
